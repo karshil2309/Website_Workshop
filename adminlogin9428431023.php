@@ -51,10 +51,10 @@
 
   // {
     $sql = "select * from enrform;";
-    $con = mysqli_connect("localhost","	id8362320_optimus","optimus","id8362320_optimus");
+    $con = mysqli_connect("localhost","root","","id8362320_optimus");
     $result = mysqli_query($con, $sql);
     echo "<table border='2px' align='center' padding='150px 150px 150px'>";
-    echo "<tr><th><center>Full Name</center></th><th>Email</th><th>Contact</th><th>Timing</th><th>Person</th><th>Payement Mode</th></tr>";
+    echo "<tr><th><center>Full Name</center></th><th>Email</th><th>Contact</th><th>Timing</th></tr>";
 
     while($row = mysqli_fetch_array($result))
     {
@@ -62,10 +62,8 @@
         echo "<td>".$row["fname"]."</td>";
         echo "<td>".$row["email"]."</td>";
         echo "<td>".$row["contact"]."</td>";
-        echo "<td>".$row["select1"]."</td>";
         echo "<td>".$row["select2"]."</td>";
-        echo "<td>".$row["paymentmode"]."<td>";
-
+      
         echo "</tr>";
     }
     echo "</table>";

@@ -73,8 +73,8 @@
 
 
 	 $servername = "localhost";
-	 $username = "	id8362320_optimus";
-	 $password = "optimus";
+	 $username = "root";
+	 $password = "";
 	 $dbname = "id8362320_optimus";
 
 	  // Create connection

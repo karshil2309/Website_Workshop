@@ -1,8 +1,8 @@
 <?php
 
 	 $servername = "localhost";
-	 $username = "id8362320_optimus";
-	 $password = "optimus";
+	 $username = "root";
+	 $password = "";
 	 $dbname = "id8362320_optimus";
 
 	  // Create connection
@@ -30,7 +30,7 @@
 	  	 if ($conn->query($sql) === TRUE )
 	  	{
 
-	header("Location: paytheme.html");
+	       header("Location: paytheme.html");
 			 }
 	  else 
 	  {
