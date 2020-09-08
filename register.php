@@ -32,7 +32,7 @@
 
 	header("Location: paytheme.html");
 			 }
-	  else
+	  else 
 	  {
 	  			echo"Failed to Insert";
 	  }
