@@ -1,7 +1,6 @@
 
-***INSERT GRAPHIC HERE (include hyperlink in image)***
 
-# Repository Title Goes Here
+# Digital Marketing Workshop 
 
 > Subtitle or Short Description Goes Here
 
