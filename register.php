@@ -23,13 +23,16 @@
 			 $phone_id=$_POST['contact'];
 	  	 // $select=$_POST['select1']; select1`
        $select2=$_POST['select2'];
+        
+    //    echo $fullname, $emailid, $phone_id, $select2;
 
 	  	 $sql ="INSERT INTO `enrform` (`fname`, `email`,`contact` ,`select2`) VALUES ('$fullname', '$emailid', '$phone_id','$select2');";
-	  	 //echo $sql; die;
+// 	  	 echo $sql; die;
 
 	  	 if ($conn->query($sql) === TRUE )
 	  	{
 
+	  	    echo"successful";
 	       header("Location: paytheme.html");
 			 }
 	  else 
